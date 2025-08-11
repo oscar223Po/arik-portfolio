@@ -1,4 +1,4 @@
-# Portfolio Website Arik - Tailored Digital Solutions for Your Brand
+# Portfolio Adaptive Website "Arik"
 This portfolio showcases a comprehensive approach to crafting visually stunning and highly functional websites. Combining creative web design, custom development, and effective SEO strategies, the projects deliver seamless user experiences and help businesses stand out online. Every solution is personalized to align with the client’s brand voice and target audience, ensuring impactful results without unnecessary complexity.
 
 ![Preview](preview.png)
