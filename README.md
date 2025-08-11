@@ -1,7 +1,7 @@
 # Freelance Website & Adaptive "Olance-Services"
 The Olance-Services website connects freelancers with clients and offers professional training opportunities. It’s a hub for collaboration, skill-building, and career growth, bringing together talented professionals and learners with intuitive tools to succeed.
 
-![Preview](./src/preview.png)
+![Preview](preview.png)
 
 ➼ Technology Stack:
 - HTML5 for structure
