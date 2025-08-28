@@ -12,4 +12,4 @@ This portfolio showcases a comprehensive approach to crafting visually stunning 
 - Flexbox & Grid for responsive design
 - BEM methodology for clean, scalable code
 
-This tech stack ensures a seamless user experience across all devices, providing an intuitive interface with practical elements such as online consultation bookings and informative sections about the clinic’s services and medical team.
+The technology stack used in development is a balanced and practical choice for modern web projects. It includes proven tools that ensure stable performance, ease of development, and solid support.
