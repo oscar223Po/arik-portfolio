@@ -1,12 +1,12 @@
-# ☕ Cafena — Coffee Website Morning Delight
+# 🚀 Arik Personal Portfolio Website - Fresh Idea For Implementing
 
-Cafena brings the aroma of fresh coffee to your mornings through a modern and engaging website. The design emphasizes simplicity and warmth, making every visit feel like a cozy café experience. Crafted with high-quality visuals and smooth performance, it ensures customers stay connected to their favorite drink. A website like this can help strengthen your brand and grow your business faster.
+This portfolio showcases a comprehensive approach to crafting visually stunning and highly functional websites. Combining creative web design, **custom development**, and effective SEO strategies, the projects deliver seamless user experiences and help businesses stand out online. Every solution is personalized to align with the client’s brand voice and target audience, ensuring impactful results without unnecessary complexity.
 
 ---
 
 <h3>🖼 Preview</h3>
 
-<img width="1424" height="811" alt="Screen Shot 2025-09-05 at 4 07 59 PM" src="https://github.com/user-attachments/assets/8fe188e2-c930-43cb-a216-451c185fd0a0" />
+![Preview](preview.png)
 
 ---
 
@@ -26,6 +26,11 @@ Cafena brings the aroma of fresh coffee to your mornings through a modern and en
 - 🏷️ **BEM methodology** for organized class naming and scalability  
 - 📱 Responsive layout with **Flexbox** and **CSS Grid**  
 - ⚙️ **JavaScript** for interactive elements and dynamic behavior  
+- 🔄 **Gulp + Webpack** for task automation:  
+  - SCSS compilation  
+  - Minification  
+  - Image optimization  
+  - Hot-reload during development  
 
 ---
 
@@ -38,6 +43,7 @@ Cafena brings the aroma of fresh coffee to your mornings through a modern and en
 | **BEM**            | Clean and scalable code   |
 | **Flexbox & Grid** | Responsive design         |
 | **JavaScript**     | Dynamic functionality     |
+| **Gulp & Webpack** | Build automation          |
 
 ---
 
