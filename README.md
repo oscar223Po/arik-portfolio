@@ -1,4 +1,4 @@
-# 🚀 Arik Personal Portfolio Website - Fresh Idea For Implementing
+# 🎨 Arik — Personal Portfolio Website
 
 This portfolio showcases a comprehensive approach to crafting visually stunning and highly functional websites. Combining creative web design, **custom development**, and effective SEO strategies, the projects deliver seamless user experiences and help businesses stand out online. Every solution is personalized to align with the client’s brand voice and target audience, ensuring impactful results without unnecessary complexity.
 
