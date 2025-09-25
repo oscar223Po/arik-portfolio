@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ua">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +10,19 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 		<style>
+			/*
+			Palitra
+			#850203 Red
+			#e1dcd8 Gray
+			#292323 Dark
+			#ffffff White
+			*/
+			:root {
+				--first: #850203;
+				--second: #e1dcd8;
+				--third: #292323;
+				--fourth: #ffffff;
+			}
 			*,
 			*::before,
 			*::after {
@@ -20,6 +33,13 @@
 			}
 			ul li{
 				list-style: none;
+			}
+			h1 {
+				font-size: 40px;
+			}
+			h1 span {
+				color: var(--first);
+				text-transform: capitalize;
 			}
 			h2 {
 				font-size: 20px;
@@ -33,21 +53,14 @@
 			html {
 				height: 100%;
 			}
-			/*
-			Palitra
-			#850203 Red
-			#e1dcd8 Gray
-			#292323 Dark
-			#ffffff White
-			*/
 			body {
 				font-family: "Quicksand", sans-serif;
-				background-color: #e1dcd8;
-				color: #292323;
+				background-color: var(--second);
+				color: var(--third);
 			}
 			.wrapper {
-				min-height: 100%;
 				display: flex;
+				min-height: 100%;
 				flex-direction: column;
 			}
 			.wrapper > main {
@@ -62,13 +75,6 @@
 			.projectpage > *:last-child {
 				margin-bottom: 0px;
 			}
-			.projectpage__title {
-				font-size: 40px;
-			}
-			.projectpage__title span {
-				color: #850203;
-				text-transform: capitalize;
-			}
 			.projectpage__list {
 				padding-left: 15px;
 			}
@@ -79,14 +85,14 @@
 				margin-bottom: 0px;
 			}
 			.projectpage__list a {
-				color: #850203;
+				color: var(--first);
 				line-height: 1.25;
 			}
 			.projectpage__list a span {
 				text-transform: capitalize;
 			}
 			.projectpage__list a:hover {
-				color: #292323;
+				color: var(--third);
 			}
 			.projectpage__blocks {
 				gap: 15px;
@@ -96,7 +102,7 @@
 			.projectpage__block {
 				padding: 15px;
 				border-radius: 5px;
-				background-color: #ffffff;
+				background-color: var(--fourth);
 				box-shadow: rgba(14, 63, 126, 0.06) 0px 0px 0px 1px, rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 2px 2px -1px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.03) 0px 5px 5px -2.5px, rgba(42, 51, 70, 0.03) 0px 10px 10px -5px, rgba(42, 51, 70, 0.03) 0px 24px 24px -8px;
 			}
 			.projectpage__block h2 span {
@@ -107,14 +113,17 @@
 				line-height: 1.5;
 			}
 			.projectpage__block p a {
-				color: #850203;
 				font-weight: 500;
+				color: var(--first);
 				text-decoration: underline;
 			}
 			.projectpage__block p a:hover {
-				color: #292323;
+				color: var(--third);
 			}
 			@media (max-width:767.98px) {
+				h1 {
+					font-size: 28px;
+				}
 				h2 {
 					font-size: 16px;
 					margin-bottom: 8px;
@@ -122,9 +131,6 @@
 				.projectpage {
 					padding: 15px;
 					font-size: 14px;
-				}
-				.projectpage__title {
-					font-size: 28px;
 				}
 				.projectpage > * {
 					margin-bottom: 18px;
@@ -141,9 +147,9 @@
 	<body>
 		<div class="wrapper">
 			<main class="projectpage">
-				<h1 class="projectpage__title">Project overview: <span>arik</span></h1>
-				<div class="projectpage__body">
-					<h2 class="projectpage__sub-title">Pages to view:</h2>
+				<h1>Project overview: <span>arik</span></h1>
+				<div class="projectpage__main">
+					<h2>Pages to view:</h2>
 					<ol class="projectpage__list">
 						<li><a href="index.html"><span>arik</span> — (Home Page)</a></li>
 					</ol>
@@ -156,6 +162,10 @@
 					</div>
 					<div class="projectpage__block">
 						<h2>My contacts:</h2>
+						<p>
+							Profile:
+							<a target="_blank" href="https://www.fiverr.com/oscaritoparapit?public_mode=true">View the Freelance profile</a>
+						</p>
 						<p>
 							Telegram:
 							<a target="_blank" href="https://t.me/svyourself">Contact me via Telegram</a>
