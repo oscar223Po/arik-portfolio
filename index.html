@@ -10,10 +10,10 @@
 		<link rel="preload" href="./assets/fonts/Chillax-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="shortcut icon" href="./assets/img/shortcut.svg">
 		<title>Arik Home Page</title>
-		<script type="module" crossorigin="" src="./js/index.min.js?v=1759143130415"></script>
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1759311560963"></script>
 		<link rel="modulepreload" crossorigin="" href="./js/app.min.js">
-		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1759143130415">
-		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1759143130415">
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1759311560963">
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1759311560963">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -25,7 +25,7 @@
 							<nav class="menu__body">
 								<ul class="menu__list">
 									<li class="menu__item">
-										<a href="#" class="menu__link">Services</a>
+										<a href="services.html" class="menu__link">Services</a>
 									</li>
 									<li class="menu__item">
 										<a href="#" class="menu__link">Work</a>
@@ -56,7 +56,7 @@
 				</div>
 			</header>
 			<main class="page page--home">
-				<section class="hero">
+				<section class="page__hero hero">
 					<div class="hero__container">
 						<img class="hero__image" src="./assets/img/arik.png" alt="Arik">
 						<div data-fls-blockhead="" class="hero__blockhead blockhead">
@@ -72,7 +72,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="clients">
+				<section class="page__clients clients">
 					<ul class="clients__container">
 						<li class="clients__item">
 							<img src="./assets/img/clients/01.svg" alt="Image">
@@ -94,7 +94,7 @@
 						</li>
 					</ul>
 				</section>
-				<section class="skills">
+				<section class="page__skills skills">
 					<div class="skills__container">
 						<article data-fls-border="" data-fls-skill="" class="skill">
 							<h3 class="skill__title">
@@ -125,7 +125,7 @@
 						</article>
 					</div>
 				</section>
-				<section class="selected-work">
+				<section class="page__selected-work selected-work">
 					<div class="selected-work__container">
 						<div class="selected-work__header">
 							<h2 class="selected-work__title">
@@ -136,7 +136,7 @@
 						</div>
 						<div class="selected-work__items works">
 							<article data-fls-work="" class="item-work">
-								<a href="#" class="item-work__picture">
+								<a href="#" data-fls-contour="" class="item-work__picture">
 									<img class="item-work__image" src="./assets/img/work/01.jpg" alt="Image">
 								</a>
 								<div class="item-work__body">
@@ -147,7 +147,7 @@
 								</div>
 							</article>
 							<article data-fls-work="" class="item-work">
-								<a href="#" class="item-work__picture">
+								<a href="#" data-fls-contour="" class="item-work__picture">
 									<img class="item-work__image" src="./assets/img/work/02.jpg" alt="Image">
 								</a>
 								<div class="item-work__body">
@@ -158,7 +158,7 @@
 								</div>
 							</article>
 							<article data-fls-work="" class="item-work">
-								<a href="#" class="item-work__picture">
+								<a href="#" data-fls-contour="" class="item-work__picture">
 									<img class="item-work__image" src="./assets/img/work/03.jpg" alt="Image">
 								</a>
 								<div class="item-work__body">
@@ -169,7 +169,7 @@
 								</div>
 							</article>
 							<article data-fls-work="" class="item-work">
-								<a href="#" class="item-work__picture">
+								<a href="#" data-fls-contour="" class="item-work__picture">
 									<img class="item-work__image" src="./assets/img/work/04.jpg" alt="Image">
 								</a>
 								<div class="item-work__body">
@@ -182,7 +182,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="process">
+				<section class="page__process process">
 					<div class="process__container">
 						<div data-fls-blockhead="" class="process__blockhead blockhead">
 							<span class="blockhead__label">The PRocess</span>
@@ -287,7 +287,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="reviews">
+				<section class="page__reviews reviews">
 					<div class="reviews__container">
 						<div data-fls-blockhead="" class="reviews__blockhead blockhead">
 							<h2 class="blockhead__title blockhead__title--size-96">
@@ -376,7 +376,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="about-module">
+				<section class="page__about-module about-module">
 					<div class="about-module__header">
 						<div class="about-module__picture">
 							<img src="./assets/img/arik.png" class="about-module__image" alt="Arik">
