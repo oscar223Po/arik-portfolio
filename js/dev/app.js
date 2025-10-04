@@ -586,6 +586,7 @@ const marquee = () => {
 marquee();
 export {
   slideDown as a,
+  gotoBlock as b,
   dataMediaQueries as d,
   getDigFormat as g,
   slideUp as s,
