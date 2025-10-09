@@ -175,6 +175,11 @@ body {
   position: relative;
   border: 0.0625rem solid rgba(218, 197, 167, 0.15);
 }
+[data-fls-contour] img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 [data-fls-contour]::after {
   top: 0;
   left: 0;
