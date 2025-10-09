@@ -49,6 +49,12 @@
   line-height: 1.2;
   text-transform: uppercase;
 }
+.item-blog__title {
+  font-weight: 300;
+  line-height: 1.1;
+  color: #dac5a7;
+  font-family: "Satoshi", sans-serif;
+}
 .item-blog__text {
   line-height: 1.8;
 }
