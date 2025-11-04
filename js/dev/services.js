@@ -1,4 +1,5 @@
 import { d as dataMediaQueries, s as slideUp, a as slideDown, g as getDigFormat, u as uniqArray } from "./app.min.js";
+import "./gsap.min.js";
 function showMore() {
   const showMoreBlocks = document.querySelectorAll("[data-fls-showmore]");
   let showMoreBlocksRegular;

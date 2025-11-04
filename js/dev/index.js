@@ -1,5 +1,7 @@
 import "./app.min.js";
 /* empty css          */
+/* empty css                 */
+import "./gsap.min.js";
 function getDefaultExportFromCjs(x) {
   return x && x.__esModule && Object.prototype.hasOwnProperty.call(x, "default") ? x["default"] : x;
 }

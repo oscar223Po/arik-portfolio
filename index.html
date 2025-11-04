@@ -10,11 +10,13 @@
 		<link rel="preload" href="./assets/fonts/Chillax-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="shortcut icon" href="./assets/img/shortcut.svg">
 		<title>Arik — Home</title>
-		<script type="module" crossorigin="" src="./js/index.min.js?v=1760010128554"></script>
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1762266562890"></script>
 		<link rel="modulepreload" crossorigin="" href="./js/app.min.js">
-		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1760010128554">
-		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1760010128554">
-		<link rel="stylesheet" crossorigin="" href="./css/work.min2.css?v=1760010128554">
+		<link rel="modulepreload" crossorigin="" href="./js/gsap.min.js">
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1762266562890">
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1762266562890">
+		<link rel="stylesheet" crossorigin="" href="./css/work.min2.css?v=1762266562890">
+		<link rel="stylesheet" crossorigin="" href="./css/widgetheader.min.css?v=1762266562890">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -61,7 +63,7 @@
 					<div class="hero__container">
 						<img class="hero__image" src="./assets/img/arik.png" alt="Arik">
 						<div data-fls-blockhead="" class="hero__blockhead blockhead">
-							<h1 class="blockhead__title blockhead__title--size-160">
+							<h1 class="blockhead__title bta-01 blockhead__title--size-160">
 								Web Designer
 								<span>& Developer</span>
 							</h1>
@@ -128,12 +130,12 @@
 				</section>
 				<section class="page__selected-work selected-work">
 					<div class="selected-work__container">
-						<div class="selected-work__header">
-							<h2 class="selected-work__title">
+						<div data-fls-widgetheader="" class="selected-work__widgetheader widgetheader">
+							<h2 class="widgetheader__title">
 								Selected
 								<span>Work</span>
 							</h2>
-							<a href="#" data-fls-button="" class="button button--text button--icon-arrow button--arrow-ru">See all</a>
+							<a href="#" data-fls-button="" class="widgetheader__button button button--text button--icon-arrow button--arrow-ru">See all</a>
 						</div>
 						<div class="selected-work__items works">
 							<article data-fls-work="" class="item-work">

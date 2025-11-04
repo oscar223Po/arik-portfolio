@@ -1,5 +1,6 @@
 import "./app.min.js";
 /* empty css                 */
+import "./gsap.min.js";
 class DynamicAdapt {
   constructor() {
     this.type = "max";

@@ -9,12 +9,12 @@
 		<link rel="preload" href="./assets/fonts/Chillax-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="preload" href="./assets/fonts/Chillax-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="shortcut icon" href="./assets/img/shortcut.svg">
-		<title>Arik — Blog</title>
-		<script type="module" crossorigin="" src="./js/app.min.js?v=1762266562892"></script>
-		<script type="module" crossorigin="" src="./js/gsap.min.js?v=1762266562892"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1762266562892">
-		<link rel="stylesheet" crossorigin="" href="./css/blog.min.css?v=1762266562892">
-		<link rel="stylesheet" crossorigin="" href="./css/articlepreview.min.css?v=1762266562892">
+		<title>Arik — Pricing</title>
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1762266562891"></script>
+		<script type="module" crossorigin="" src="./js/gsap.min.js?v=1762266562891"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1762266562891">
+		<link rel="stylesheet" crossorigin="" href="./css/pricing.min.css?v=1762266562891">
+		<link rel="stylesheet" crossorigin="" href="./css/label.min.css?v=1762266562891">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -37,7 +37,7 @@
 										<a href="about.html" class="menu__link">About</a>
 									</li>
 									<li class="menu__item">
-										<a href="blog.html" class="menu__link menu__link--active">Blog</a>
+										<a href="blog.html" class="menu__link">Blog</a>
 									</li>
 									<li class="menu__item">
 										<a href="#" class="menu__link">Pages</a>
@@ -58,122 +58,131 @@
 					</div>
 				</div>
 			</header>
-			<main class="blog">
-				<div class="blog__hero hero-blog">
-					<div class="hero-blog__container">
-						<div data-fls-blockhead="" class="hero-blog__blockhead blockhead">
-							<h1 class="blockhead__title">Blog</h1>
-							<div class="blockhead__text">
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor lorem.
-								</p>
-							</div>
+			<main class="pricing">
+				<div class="pricing__container">
+					<div data-fls-blockhead="" class="pricing__blockhead blockhead">
+						<span class="blockhead__label">Pricing</span>
+						<h1 class="blockhead__title blockhead__title--size-80">
+							Experience the Power of
+							<span>Premium Webdesign</span>
+						</h1>
+						<div class="blockhead__text">
+							<p>
+								Choose a package that suits your needs and budget. Transparent pricing with no hidden fees.
+							</p>
 						</div>
 					</div>
-				</div>
-				<div class="blog__body body-blog">
-					<div class="body-blog__container">
-						<div class="body-blog__items">
-							<article data-fls-articlepreview="" data-fls-border="" class="articlepreview">
-								<a data-fls-contour="" href="#" class="articlepreview__link-image">
-									<img class="articlepreview__image" src="./assets/img/work/01.jpg" alt="Image">
-								</a>
-								<div class="articlepreview__body">
-									<time datetime="23-08-2023" class="articlepreview__date">23rd Aug 2023</time>
-									<h4 class="articlepreview__title">
-										<a href="#" class="articlepreview__link-title">How to Build a Stunning Website with Framer</a>
-									</h4>
-									<div class="articlepreview__text">
-										<p>
-											Learn how to create an impressive website using Framer with our step-by-step guide.
-										</p>
-									</div>
+					<div class="pricing__items">
+						<article data-fls-border="" class="pricing__item item-pricing">
+							<div class="item-pricing__header">
+								<h4 data-fls-label="" class="item-pricing__title">Lite</h4>
+								<div class="item-pricing__value">$3900.00</div>
+								<div class="item-pricing__text">
+									<p>
+										Affordable web design package with a custom design, CMS integration, and responsive design for
+							small businesses and startups.
+									</p>
 								</div>
-								<a data-fls-border="" href="#" class="articlepreview__category">WEbdesign</a>
-							</article>
-							<article data-fls-articlepreview="" data-fls-border="" class="articlepreview">
-								<a data-fls-contour="" href="#" class="articlepreview__link-image">
-									<img class="articlepreview__image" src="./assets/img/work/02.jpg" alt="Image">
-								</a>
-								<div class="articlepreview__body">
-									<time datetime="23-08-2023" class="articlepreview__date">23rd Aug 2023</time>
-									<h4 class="articlepreview__title">
-										<a href="#" class="articlepreview__link-title">10 website elements for maximum user engagement</a>
-									</h4>
-									<div class="articlepreview__text">
-										<p>
-											10 website elements to engage users, from intuitive navigation to compelling visuals.
-										</p>
-									</div>
+							</div>
+							<ul data-fls-label="" class="item-pricing__services">
+								<li class="item-pricing__service">Concept</li>
+								<li class="item-pricing__service">Strategy</li>
+								<li class="item-pricing__service">Webdesign</li>
+								<li class="item-pricing__service">Prototype</li>
+							</ul>
+							<a href="#" class="item-pricing__button button button--lite">Get Started</a>
+						</article>
+						<article data-fls-border="" class="pricing__item item-pricing">
+							<div class="item-pricing__popular">Popular</div>
+							<div class="item-pricing__header">
+								<h4 data-fls-label="" class="item-pricing__title">Premium</h4>
+								<div class="item-pricing__value">$6900.00</div>
+								<div class="item-pricing__text">
+									<p>
+										Comprehensive web design package with UX/UI design, interactive prototype, Framer development, and
+							CMS integration for medium businesses.
+									</p>
 								</div>
-								<a data-fls-border="" href="#" class="articlepreview__category">WEbdesign</a>
-							</article>
-							<article data-fls-articlepreview="" data-fls-border="" class="articlepreview">
-								<a data-fls-contour="" href="#" class="articlepreview__link-image">
-									<img class="articlepreview__image" src="./assets/img/work/03.jpg" alt="Image">
-								</a>
-								<div class="articlepreview__body">
-									<time datetime="23-08-2023" class="articlepreview__date">23rd Aug 2023</time>
-									<h4 class="articlepreview__title">
-										<a href="#" class="articlepreview__link-title">The importance of content in driving website traffic</a>
-									</h4>
-									<div class="articlepreview__text">
-										<p>Quality content is king. Learn how to create valuable, SEO-optimized content.</p>
-									</div>
+							</div>
+							<ul data-fls-label="" class="item-pricing__services">
+								<li class="item-pricing__service">Concept</li>
+								<li class="item-pricing__service">Strategy</li>
+								<li class="item-pricing__service">Webdesign</li>
+								<li class="item-pricing__service">Development</li>
+							</ul>
+							<a href="#" class="item-pricing__button button button--lite">Get Started</a>
+						</article>
+						<article data-fls-border="" class="pricing__item item-pricing">
+							<div class="item-pricing__header">
+								<h4 data-fls-label="" class="item-pricing__title">Gold</h4>
+								<div class="item-pricing__value">$9900.00</div>
+								<div class="item-pricing__text">
+									<p>
+										Elite web design package with SEO optimization, research, and SEO support for businesses looking to
+							dominate their market.
+									</p>
 								</div>
-								<a data-fls-border="" href="#" class="articlepreview__category">WEbdesign</a>
-							</article>
-							<article data-fls-articlepreview="" data-fls-border="" class="articlepreview">
-								<a data-fls-contour="" href="#" class="articlepreview__link-image">
-									<img class="articlepreview__image" src="./assets/img/work/04.jpg" alt="Image">
-								</a>
-								<div class="articlepreview__body">
-									<time datetime="23-08-2023" class="articlepreview__date">23rd Aug 2023</time>
-									<h4 class="articlepreview__title">
-										<a href="#" class="articlepreview__link-title">10 common web development mistakes to avoid</a>
-									</h4>
-									<div class="articlepreview__text">
-										<p>
-											10 common web development mistakes and improve your site's functionality and user experience.
-										</p>
-									</div>
+							</div>
+							<ul data-fls-label="" class="item-pricing__services">
+								<li class="item-pricing__service">Webdesign</li>
+								<li class="item-pricing__service">Development</li>
+								<li class="item-pricing__service">Content</li>
+								<li class="item-pricing__service">SEO</li>
+							</ul>
+							<a href="#" class="item-pricing__button button button--lite">Get Started</a>
+						</article>
+					</div>
+					<div class="pricing__faq faq-pricing">
+						<div class="faq-pricing__header">
+							<div data-fls-label="" class="faq-pricing__label">FAQ</div>
+							<h2 class="faq-pricing__title">
+								Common
+								<span>Questions</span>
+							</h2>
+						</div>
+						<div data-fls-spollers="" data-fls-spollers-one="" class="faq-pricing__items">
+							<details data-fls-border="" data-fls-spollers-open="" class="faq-pricing__item">
+								<summary class="faq-pricing__caption faq-pricing__caption--icon-plus">What is the typical turnaround time for a website project?</summary>
+								<div class="faq-pricing__body">
+									<p>
+										The timeline for a website project can vary depending on the complexity of the project and the
+							specific requirements of the client. However, we work closely with our clients to establish a
+							timeline that works for everyone and strive to deliver projects in a timely and efficient manner.
+									</p>
 								</div>
-								<a data-fls-border="" href="#" class="articlepreview__category">WEbdesign</a>
-							</article>
-							<article data-fls-articlepreview="" data-fls-border="" class="articlepreview">
-								<a data-fls-contour="" href="#" class="articlepreview__link-image">
-									<img class="articlepreview__image" src="./assets/img/work/01.jpg" alt="Image">
-								</a>
-								<div class="articlepreview__body">
-									<time datetime="23-08-2023" class="articlepreview__date">23rd Aug 2023</time>
-									<h4 class="articlepreview__title">
-										<a href="#" class="articlepreview__link-title">Why responsive web design is critical for your business</a>
-									</h4>
-									<div class="articlepreview__text">
-										<p>
-											Responsive web design ensures your site looks great and performs well on all devices.
-										</p>
-									</div>
+							</details>
+							<details data-fls-border="" class="faq-pricing__item">
+								<summary class="faq-pricing__caption faq-pricing__caption--icon-plus">
+									Can you help with website maintenance and updates after the project is completed?
+								</summary>
+								<div class="faq-pricing__body">
+									<p>
+										The timeline for a website project can vary depending on the complexity of the project and the
+							specific requirements of the client. However, we work closely with our clients to establish a
+							timeline that works for everyone and strive to deliver projects in a timely and efficient manner.
+									</p>
 								</div>
-								<a data-fls-border="" href="#" class="articlepreview__category">WEbdesign</a>
-							</article>
-							<article data-fls-articlepreview="" data-fls-border="" class="articlepreview">
-								<a data-fls-contour="" href="#" class="articlepreview__link-image">
-									<img class="articlepreview__image" src="./assets/img/work/04.jpg" alt="Image">
-								</a>
-								<div class="articlepreview__body">
-									<time datetime="23-08-2023" class="articlepreview__date">23rd Aug 2023</time>
-									<h4 class="articlepreview__title">
-										<a href="#" class="articlepreview__link-title">The art of SEO writing: How to write content that ranks on Google</a>
-									</h4>
-									<div class="articlepreview__text">
-										<p>
-											Optimize your website with expert tips on writing content that ranks high on Google.
-										</p>
-									</div>
+							</details>
+							<details data-fls-border="" class="faq-pricing__item">
+								<summary class="faq-pricing__caption faq-pricing__caption--icon-plus">How do you ensure that my website will be optimized for search engines?</summary>
+								<div class="faq-pricing__body">
+									<p>
+										The timeline for a website project can vary depending on the complexity of the project and the
+							specific requirements of the client. However, we work closely with our clients to establish a
+							timeline that works for everyone and strive to deliver projects in a timely and efficient manner.
+									</p>
 								</div>
-								<a data-fls-border="" href="#" class="articlepreview__category">WEbdesign</a>
-							</article>
+							</details>
+							<details data-fls-border="" class="faq-pricing__item">
+								<summary class="faq-pricing__caption faq-pricing__caption--icon-plus">What is your process for website design and development?</summary>
+								<div class="faq-pricing__body">
+									<p>
+										The timeline for a website project can vary depending on the complexity of the project and the
+							specific requirements of the client. However, we work closely with our clients to establish a
+							timeline that works for everyone and strive to deliver projects in a timely and efficient manner.
+									</p>
+								</div>
+							</details>
 						</div>
 					</div>
 				</div>

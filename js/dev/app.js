@@ -27,6 +27,31 @@
     fetch(link.href, fetchOpts);
   }
 })();
+const isMobile = { Android: function() {
+  return navigator.userAgent.match(/Android/i);
+}, BlackBerry: function() {
+  return navigator.userAgent.match(/BlackBerry/i);
+}, iOS: function() {
+  return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+}, Opera: function() {
+  return navigator.userAgent.match(/Opera Mini/i);
+}, Windows: function() {
+  return navigator.userAgent.match(/IEMobile/i);
+}, any: function() {
+  return isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows();
+} };
+function addTouchAttr() {
+  if (isMobile.any()) document.documentElement.setAttribute("data-fls-touch", "");
+}
+function addLoadedAttr() {
+  if (!document.documentElement.hasAttribute("data-fls-preloader-loading")) {
+    window.addEventListener("load", function() {
+      setTimeout(function() {
+        document.documentElement.setAttribute("data-fls-loaded", "");
+      }, 0);
+    });
+  }
+}
 function getHash() {
   if (location.hash) {
     return location.hash.replace("#", "");
@@ -584,6 +609,8 @@ const marquee = () => {
   });
 };
 marquee();
+addTouchAttr();
+addLoadedAttr();
 export {
   slideDown as a,
   gotoBlock as b,
