@@ -8,6 +8,18 @@
   overflow: hidden;
   position: relative;
 }
+.item-work::after {
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  content: "";
+  height: 100%;
+  position: absolute;
+  pointer-events: none;
+  transition: opacity 0.5s;
+  background-color: #0e0e0e;
+}
 .item-work__picture {
   display: block;
   position: relative;
@@ -110,7 +122,9 @@
   .item-work__category:hover {
     color: #f1e8da;
   }
-  .item-work:hover .item-work__image {
+}
+@media (any-hover: hover), (pointer: fine) {
+  html:not([data-fls-touch]) .item-work:hover .item-work__image {
     scale: 1.07;
   }
 }
